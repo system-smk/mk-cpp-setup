@@ -1,2 +1,23 @@
-# mk-cpp-setup
-Un script Bash simple et efficace pour installer un environnement de développement C++ moderne sur Linux (Ubuntu/Debian).   Inclut les outils essentiels comme `g++`, `clang`, `cmake`, ainsi que les bibliothèques Boost (Asio), OpenSSL et SFML.   Parfait pour démarrer des projets réseau, système ou multimédia en C++ 
+# 📦 Script d'installation d'un environnement C++ moderne (Linux)
+
+Ce script permet d’installer rapidement un environnement complet pour développer en C++ sur un système **Linux Debian/Ubuntu**.  
+Il installe les outils essentiels, ainsi que des bibliothèques courantes comme **Boost.Asio**, **OpenSSL** et **SFML** 
+
+---
+
+## 🧰 Outils installés
+
+- `build-essential` (compilateur, linker, make…)
+- `g++` & `clang`
+- `cmake`
+- `libboost-all-dev`
+- `libssl-dev`
+- `libsfml-dev`
+
+---
+
+## 🚀 Utilisation
+
+1. Cloner ce dépôt :
+   
+
