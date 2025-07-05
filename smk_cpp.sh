@@ -4,7 +4,7 @@ set -e  # Stoppe le script si une commande échoue
 set -o pipefail
 LOG="install_cpp.log"
 
-# 🧩 Liste des paquets à installer
+# Liste des paquets à installer
 PAQUETS=(
     build-essential
     cmake
@@ -15,14 +15,14 @@ PAQUETS=(
     libsfml-dev
 )
 
-echo "📜 Journal d'installation → $LOG"
-echo "🔎 Mise à jour des paquets..."
+echo "Journal d'installation → $LOG"
+echo "Mise à jour des paquets..."
 sudo apt update | tee -a "$LOG"
 
 # 🔁 Fonction d’installation avec vérification
 installer_paquet() {
     if dpkg -s "$1" &>/dev/null; then
-        echo "✅ $1 déjà installé"
+        echo "$1 déjà installé"
     else
         echo "📦 Installation de $1..."
         sudo apt install -y "$1" | tee -a "$LOG"
