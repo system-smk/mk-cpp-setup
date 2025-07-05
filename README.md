@@ -14,11 +14,6 @@ Il installe les outils essentiels, ainsi que des bibliothèques courantes comme 
 - `libssl-dev`
 - `libsfml-dev`
 
----
 
-## 🚀 Utilisation
-
-1. Cloner ce dépôt :
-https://github.com/system-smk/mk-cpp-setup.git
    
 
